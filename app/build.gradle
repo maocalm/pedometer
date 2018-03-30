@@ -1,0 +1,114 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.3'
+    defaultConfig {
+        applicationId "com.baisi.spedometer"
+        minSdkVersion 15
+        targetSdkVersion 22
+        //compileSdkVersion 25
+        //buildToolsVersion '26.0.2'
+        versionCode 3
+        //versionName "1.0.3"  // 测试版本 ；
+        versionName "1.1.1"  // 正式版本；
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+
+    }
+    signingConfigs {
+
+        releaseConfig {
+            keyAlias 'spedometer'
+            keyPassword 'baisihan1994'
+            storeFile file('spedometer.jks')
+            storePassword 'baisihan1994'
+        }
+    }
+
+    buildTypes {
+        release {
+            multiDexEnabled true
+            minifyEnabled true
+            signingConfig signingConfigs.releaseConfig
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            multiDexEnabled true
+            signingConfig signingConfigs.releaseConfig
+        }
+
+    }
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def fileName
+
+            if (variant.buildType.name.equals('release')) {
+                fileName = "Spedomter_${defaultConfig.versionName}_${defaultConfig.versionCode}_release.apk"
+            } else if (variant.buildType.name.equals('debug')) {
+                fileName = "Spedomter_${defaultConfig.versionName}_${defaultConfig.versionCode}_debug.apk"
+            }
+            outputFileName = fileName
+        }
+    }
+
+
+    lintOptions {
+        checkReleaseBuilds false
+
+        abortOnError false
+
+    }
+}
+
+apply plugin: 'org.greenrobot.greendao' // apply plugin
+
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.2.2' // add plugin
+    }
+}
+repositories {
+    mavenCentral()
+    maven { url 'https://maven.fabric.io/public' }
+}
+apply plugin: 'io.fabric'
+
+//先apply
+greendao {
+    schemaVersion 2
+    daoPackage 'com.baisi.spedometer.greendao.gen'
+    targetGenDir 'src/main/java'
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4:26.0.1'
+    implementation 'com.google.android.gms:play-services-plus:11.6.0'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleCompatible
+    compile 'com.android.support:appcompat-v7:26.0.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:design:26.0.1'
+    compile project(':adsplugin')
+    compile project(':timer_view')
+    compile 'com.facebook.android:facebook-android-sdk:4.+'
+    compile 'com.google.firebase:firebase-core:11.6.0'
+    compile 'com.android.support:multidex:1.0.1'
+    compile('com.crashlytics.sdk.android:crashlytics:2.8.0@aar') {
+        transitive = true;
+    }
+    compile 'com.google.android.gms:play-services-fitness:11.6.0'
+    compile 'com.google.android.gms:play-services-auth:11.6.0'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'org.greenrobot:greendao:3.2.2'
+
+    compile 'io.reactivex.rxjava2:rxjava:2.0.1'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+}
+apply plugin: 'com.google.gms.google-services'

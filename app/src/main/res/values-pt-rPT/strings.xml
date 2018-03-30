@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navegar para a página inicial</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navegar para cima</string>
+    <string name="abc_action_menu_overflow_description">Mais opções</string>
+    <string name="abc_action_mode_done">Concluído</string>
+    <string name="abc_activity_chooser_view_see_all">Ver tudo</string>
+    <string name="abc_activitychooserview_choose_application">Escolher uma aplicação</string>
+    <string name="abc_capital_off">DESATIVADO</string>
+    <string name="abc_capital_on">ATIVADO</string>
+    <string name="abc_search_hint">Pesquisar...</string>
+    <string name="abc_searchview_description_clear">Limpar consulta</string>
+    <string name="abc_searchview_description_query">Consulta de pesquisa</string>
+    <string name="abc_searchview_description_search">Pesquisar</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Pesquisa por voz</string>
+    <string name="abc_shareactionprovider_share_with">Partilhar com</string>
+    <string name="abc_shareactionprovider_share_with_application">Partilhar com %s</string>
+    <string name="abc_toolbar_collapse_description">Reduzir</string>
+    <string name="common_google_play_services_enable_button">Ativar</string>
+    <string name="common_google_play_services_enable_text">O %1$s não funciona enquanto não ativar os serviços do Google Play.</string>
+    <string name="common_google_play_services_enable_title">Ativar serviços do Google Play</string>
+    <string name="common_google_play_services_install_button">Instalar</string>
+    <string name="common_google_play_services_install_text">O %1$s não é executado sem os Serviços do Google Play, os quais estão em falta no seu dispositivo.</string>
+    <string name="common_google_play_services_install_title">Obter serviços do Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Erro dos Serviços do Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s está a ter problemas com os Serviços do Google Play. Tente novamente.</string>
+    <string name="common_google_play_services_unsupported_text">Não é possível executar o %1$s sem os Serviços do Google Play, os quais não são compatíveis com o seu dispositivo.</string>
+    <string name="common_google_play_services_update_button">Atualizar</string>
+    <string name="common_google_play_services_update_text">O %1$s não é executado enquanto não atualizar os serviços do Google Play.</string>
+    <string name="common_google_play_services_update_title">Atualizar serviços do Google Play</string>
+    <string name="common_google_play_services_updating_text">O %1$s não é executado sem os serviços do Google Play, os quais estão a ser atualizados.</string>
+    <string name="common_google_play_services_wear_update_text">É necessária uma nova versão dos serviços do Google Play. Esta será atualizada automaticamente em breve.</string>
+    <string name="common_open_on_phone">Abrir no telemóvel</string>
+    <string name="common_signin_button_text">Iniciar sessão</string>
+    <string name="common_signin_button_text_long">Iniciar sessão com o Google</string>
+    <string name="exo_controls_fastforward_description">Avançar</string>
+    <string name="exo_controls_next_description">Faixa seguinte</string>
+    <string name="exo_controls_pause_description">Interromper</string>
+    <string name="exo_controls_play_description">Reproduzir</string>
+    <string name="exo_controls_previous_description">Faixa anterior</string>
+    <string name="exo_controls_rewind_description">Rebobinar</string>
+    <string name="exo_controls_stop_description">Parar</string>
+    <string name="search_menu_title">Pesquisar</string>
+    <string name="status_bar_notification_info_overflow">+999</string>
+    <string name="lib_cancel">Cancelar</string>
+    <string name="lib_five_stars_submit">Enviar</string>
+    <string name="lib_new_five_stars_choose">A sua avaliação é útil.</string>
+    <string name="lib_new_five_stars_choose_1">Não gosto do design</string>
+    <string name="lib_new_five_stars_choose_2">Não tem as funcionalidades de que preciso</string>
+    <string name="lib_new_five_stars_choose_3">Não é fácil de utilizar</string>
+    <string name="lib_new_five_stars_choose_4">É muito complicado</string>
+    <string name="lib_new_five_stars_choose_5">A tradução é de baixa qualidade</string>
+    <string name="lib_new_five_stars_close">FECHAR</string>
+    <string name="lib_new_five_stars_rate">"Estamos a trabalhar no sentido de melhorar a experiência do utilizador.
+
+Agradecíamos que nos avaliasse."</string>
+    <string name="lib_new_five_stars_rate_us">"A sua avaliação beneficia os outros utilizadores.
+
+Por favor, deixe uma avaliação no Google Play."</string>
+    <string name="lib_rate">Avaliaçāo</string>
+    <string name="lib_rate_dislike">Não gostei</string>
+    <string name="lib_rate_hate_it">Detestei</string>
+    <string name="lib_rate_it_is_ok">Razoável</string>
+    <string name="lib_rate_like_it">Gostei</string>
+    <string name="lib_rate_love_it">Adorei</string>
+    <string name="lib_rate_on_google">Avaliar no google play</string>
+    <string name="lib_the_best_we_can_get">O melhor que conseguimos :)</string>
+
+
+
+
+    <string name="notification_content">"Os passos de hoje são &#160;"</string>
+</resources>

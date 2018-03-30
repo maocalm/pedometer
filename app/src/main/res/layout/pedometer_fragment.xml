@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_activity_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/progress_rl"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.baisi.spedometer.view.ProgressRing
+                            android:id="@+id/ProgressRing"
+                            android:layout_width="245dp"
+                            android:layout_height="245dp"
+                            android:layout_gravity="center_horizontal"
+                            app:pr_bg_start_color="@color/back_gradient_color"
+                            app:pr_progress_end_color="@color/end_gradient_color"
+                            app:pr_progress_start_color="@color/start_gradient_color"
+                            app:pr_progress_width="23dp"
+
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/setp_goal_in_progress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/pedo_goal_tv"
+                            android:textSize="16sp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="22dp"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/steps_in_progress"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:textColor="@color/pedo_step_tv"
+                                android:textSize="40sp"
+                                tools:text="asdfafafd" />
+
+                            <TextView
+                                android:id="@+id/pause_in_progress"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/inprogress_pause_selector"
+                                android:gravity="center"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="@string/paused"
+                                android:textColor="@color/pedo_pause_tv"
+                                android:textSize="16sp"
+                                android:visibility="gone" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/icon_in_progress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="22dp"
+                            android:drawableLeft="@drawable/icon_step"
+                            android:text="@string/steps"
+                            android:textColor="@color/pedo_goal_tv"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/progress_rl"
+                >
+
+                <com.baisi.spedometer.view.TextViewDrawable
+                    android:id="@+id/pause_resume"
+                    android:layout_width="160dp"
+                    android:layout_height="42dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/main_button_selector"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/drawleft_selector"
+                    android:drawablePadding="-30dp"
+                    android:gravity="center"
+                    android:paddingLeft="30dp"
+                    android:text="@string/pause"
+                    android:textColor="@android:color/white"
+                    app:drawableLeftHeight="30dp"
+                    app:drawableLeftWidth="30dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginTop="35dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.baisi.spedometer.view.TextViewDrawable
+                        android:id="@+id/km"
+                        android:layout_width="0dp"
+                        android:layout_height="68dp"
+                        android:layout_weight="1"
+                        android:drawableTop="@drawable/km"
+                        android:gravity="center"
+                        android:text="km"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp"
+                        app:drawableTopHeight="40dp"
+                        app:drawableTopWidth="40dp" />
+
+                    <com.baisi.spedometer.view.TextViewDrawable
+                        android:id="@+id/kcal"
+                        android:layout_width="0dp"
+                        android:layout_height="68dp"
+                        android:layout_weight="1"
+                        android:drawableTop="@drawable/kcal"
+                        android:gravity="center"
+                        android:text="kcal"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp"
+                        app:drawableTopHeight="40dp"
+                        app:drawableTopWidth="40dp" />
+
+                    <com.baisi.spedometer.view.TextViewDrawable
+                        android:id="@+id/time"
+                        android:layout_width="0dp"
+                        android:layout_height="68dp"
+                        android:layout_weight="1"
+                        android:drawableTop="@drawable/time"
+                        android:gravity="center"
+                        android:text="time"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp"
+                        app:drawableTopHeight="40dp"
+                        app:drawableTopWidth="40dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/unit_km"
+                        android:textColor="@color/set_text_color" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/kcal"
+                        android:textColor="@color/set_text_color" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/walking_time"
+                        android:textColor="@color/set_text_color" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="week_name">
+        <item>Dom</item>
+        <item>Seg</item>
+        <item>Ter</item>
+        <item>Quar</item>
+        <item>Quin</item>
+        <item>Sex</item>
+        <item>Sáb</item>
+    </string-array>
+    <string-array name="week_name_full">
+        <item>Domingo</item>
+        <item>Segunda-feira</item>
+        <item>Terça-feira</item>
+        <item>Quarta-feira</item>
+        <item>Quinta-feira</item>
+        <item>Sexta-feira</item>
+        <item>Sábado</item>
+    </string-array>
+    <string-array name="week_name_simple">
+        <item>Dom</item>
+        <item>Seg</item>
+        <item>Ter</item>
+        <item>Quar</item>
+        <item>Quin</item>
+        <item>Sex</item>
+        <item>Sáb</item>
+    </string-array>
+</resources>

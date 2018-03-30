@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/popwindow_bg"
+    android:paddingTop="20dp"
+    android:paddingLeft="20dp">
+
+    <TextView
+        style="@style/pop_title_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weight" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weight_desc" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <com.baisi.spedometer.view.numberpicker.NumberPicker
+            android:id="@+id/number_pick_left"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"></com.baisi.spedometer.view.numberpicker.NumberPicker>
+
+        <TextView
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:textStyle="bold"/>
+        <com.baisi.spedometer.view.numberpicker.NumberPicker
+            android:id="@+id/number_pick_right"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"></com.baisi.spedometer.view.numberpicker.NumberPicker>
+
+        <TextView
+            style="@style/pop_title_style"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/unit_kg"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:paddingRight="30dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/btn_confirm_ok"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/setting_text_show_color" />
+
+        <TextView
+            android:id="@+id/cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/ok"
+            android:text="@string/btn_cancel"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/setting_text_show_color"
+
+            />
+    </RelativeLayout>
+
+</LinearLayout>

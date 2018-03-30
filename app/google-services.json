@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1014357723663",
+    "firebase_url": "https://spedometer-a4f3e.firebaseio.com",
+    "project_id": "spedometer-a4f3e",
+    "storage_bucket": "spedometer-a4f3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014357723663:android:b712135527bc511c",
+        "android_client_info": {
+          "package_name": "com.baisi.spedometer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014357723663-bj7qje3sj4ku8vuqfr67jj6vhk417h55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8TQPSMLu-aNpY0VVru9-9UijdKpnHj9k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

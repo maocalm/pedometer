@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Prejsť na plochu</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Prejsť hore</string>
+    <string name="abc_action_menu_overflow_description">Ďalšie možnosti</string>
+    <string name="abc_action_mode_done">Hotovo</string>
+    <string name="abc_activity_chooser_view_see_all">Zobraziť všetko</string>
+    <string name="abc_activitychooserview_choose_application">Zvoľte aplikáciu</string>
+    <string name="abc_capital_off">VYP.</string>
+    <string name="abc_capital_on">ZAP.</string>
+    <string name="abc_search_hint">Vyhľadať…</string>
+    <string name="abc_searchview_description_clear">Vymazať dopyt</string>
+    <string name="abc_searchview_description_query">Vyhľadávací dopyt</string>
+    <string name="abc_searchview_description_search">Hľadať</string>
+    <string name="abc_searchview_description_submit">Odoslať dopyt</string>
+    <string name="abc_searchview_description_voice">Hlasové vyhľadávanie</string>
+    <string name="abc_shareactionprovider_share_with">Zdieľať pomocou</string>
+    <string name="abc_shareactionprovider_share_with_application">Zdieľať pomocou %s</string>
+    <string name="abc_toolbar_collapse_description">Zbaliť</string>
+    <string name="common_google_play_services_enable_button">Povoliť</string>
+    <string name="common_google_play_services_enable_text">Aplikácia %1$s bude fungovať až po povolení služieb Google Play.</string>
+    <string name="common_google_play_services_enable_title">Povoliť služby Google Play</string>
+    <string name="common_google_play_services_install_button">Inštalovať</string>
+    <string name="common_google_play_services_install_text">Na spustenie aplikácie %1$s sa vyžadujú služby Google Play, ktoré na zariadení nemáte.</string>
+    <string name="common_google_play_services_install_title">Inštalovať služby Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Chyba služieb Google Play</string>
+    <string name="common_google_play_services_unknown_issue">Aplikácia %1$s má problémy so službami Google Play. Skúste to znova.</string>
+    <string name="common_google_play_services_unsupported_text">Aplikáciu %1$s nebude možné spustiť bez služieb Google Play, ktoré vaše zariadenie nepodporuje.</string>
+    <string name="common_google_play_services_update_button">Aktualizovať</string>
+    <string name="common_google_play_services_update_text">Aplikáciu %1$s bude možné spustiť až po aktualizácii služieb Google Play.</string>
+    <string name="common_google_play_services_update_title">Aktualizácia služieb Google Play</string>
+    <string name="common_google_play_services_updating_text">Na spustenie aplikácie %1$s sa vyžadujú služby Google Play, ktoré sa momentálne aktualizujú.</string>
+    <string name="common_google_play_services_wear_update_text">Vyžaduje sa nová verzia služieb Google Play. Aktualizujú sa automaticky v najbližšom čase.</string>
+    <string name="common_open_on_phone">Otvoriť v telefóne</string>
+    <string name="common_signin_button_text">Prihlásiť sa</string>
+    <string name="common_signin_button_text_long">Prihlásiť sa do účtu Google</string>
+    <string name="exo_controls_fastforward_description">Pretočiť dopredu</string>
+    <string name="exo_controls_next_description">Ďalšia stopa</string>
+    <string name="exo_controls_pause_description">Pozastaviť</string>
+    <string name="exo_controls_play_description">Prehrať</string>
+    <string name="exo_controls_previous_description">Predchádzajúca stopa</string>
+    <string name="exo_controls_rewind_description">Pretočiť späť</string>
+    <string name="exo_controls_stop_description">Zastaviť</string>
+    <string name="search_menu_title">Vyhľadávanie</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="EXIT">UKONČIŤ</string>
+    <string name="download">Stiahnuť</string>
+    <string name="exit">Ukončiť</string>
+    <string name="get_app">ZÍSKAŤ Z GOOGLE PLAY</string>
+    <string name="install">NainšNainštalujtetalujte</string>
+    <string name="lib_cancel">Zruš</string>
+    <string name="lib_five_stars_submit">Odoslať</string>
+    <string name="lib_new_five_stars_choose">Vaša spätná väzba je užitočná.</string>
+    <string name="lib_new_five_stars_choose_1">Nepáči sa mi dizajn</string>
+    <string name="lib_new_five_stars_choose_2">Nemá funkcie, ktoré potrebujem</string>
+    <string name="lib_new_five_stars_choose_3">Použitie nie je jednoduché</string>
+    <string name="lib_new_five_stars_choose_4">Je to príliš komplikované</string>
+    <string name="lib_new_five_stars_choose_5">Preklad je nekvalitný</string>
+    <string name="lib_new_five_stars_close">ZATVORIŤ</string>
+    <string name="lib_new_five_stars_rate">"Usilovne pracujeme zabezpečení lepšieho dojmu používateľa.
+
+Veľmi by sme ocenili, keby ste nás ohodnotili."</string>
+    <string name="lib_new_five_stars_rate_us">"Ostatným používateľom vaša recenzia pomôže. 
+
+Zanechajte recenziu v službe Google Play."</string>
+    <string name="lib_rate">Hodnotiť</string>
+    <string name="lib_rate_dislike">Nepáčilo sa mi to</string>
+    <string name="lib_rate_hate_it">Bolo to hrozné</string>
+    <string name="lib_rate_it_is_ok">OK</string>
+    <string name="lib_rate_like_it">Páčilo sa mi to</string>
+    <string name="lib_rate_love_it">Bolo to vynikajúce</string>
+    <string name="lib_rate_on_google">Hodnotiť na Google play</string>
+    <string name="lib_the_best_we_can_get">Najlepšie, čo môžeme dostať :)</string>
+    <string name="recommended_for_you">Odporúčané pre vás</string>
+
+
+
+
+    <string name="notification_content">"Dnešné kroky sú &#160;"</string>
+</resources>

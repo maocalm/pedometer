@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="week_name">
+        <item>Sön</item>
+        <item>Mån</item>
+        <item>Tis</item>
+        <item>Ons</item>
+        <item>Tor</item>
+        <item>Fre</item>
+        <item>Lör</item>
+    </string-array>
+    <string-array name="week_name_full">
+        <item>Söndag</item>
+        <item>Måndag</item>
+        <item>Tisdag</item>
+        <item>Onsdag</item>
+        <item>Torsdag</item>
+        <item>Fredag</item>
+        <item>Lördag</item>
+    </string-array>
+</resources>

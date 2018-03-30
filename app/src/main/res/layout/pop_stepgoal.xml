@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popwindow_bg"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp">
+
+    <TextView
+
+        style="@style/pop_title_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/goal_ins_title" />
+
+    <!--<TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" " />-->
+
+    <LinearLayout
+android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.baisi.spedometer.view.numberpicker.NumberPicker
+            android:id="@+id/numberpicker_stepgoal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></com.baisi.spedometer.view.numberpicker.NumberPicker>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/stepgoal_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="30dp"
+            android:text="@string/btn_confirm_ok"
+            android:textColor="@color/setting_text_show_color"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stepgoal_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/stepgoal_ok"
+            android:text="@string/btn_cancel"
+            android:textColor="@color/setting_text_show_color"
+            android:textSize="17sp"
+            android:textStyle="bold"
+
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>

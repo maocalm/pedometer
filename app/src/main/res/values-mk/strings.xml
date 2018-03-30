@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_enable_button">Овозможи</string>
+    <string name="common_google_play_services_enable_text">%1$s нема да се извршува ако не овозможите услуги на Google Play.</string>
+    <string name="common_google_play_services_enable_title">Овозможи ги услугите на Google Play</string>
+    <string name="common_google_play_services_install_button">Инсталирај</string>
+    <string name="common_google_play_services_install_text">%1$s нема да се извршува без услугите на Google Play што ги нема на уредот.</string>
+    <string name="common_google_play_services_install_title">Преземи ги услугите на Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Грешка на услугите на Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s има проблеми со услугите на Google Play. Обидете се повторно.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s нема да се извршува без услугите на Google Play, што не се подржани од уредов.</string>
+    <string name="common_google_play_services_update_button">Ажурирај</string>
+    <string name="common_google_play_services_update_text">%1$s нема да се извршува ако не ги ажурирате услугите на Google Play.</string>
+    <string name="common_google_play_services_update_title">Ажурирај ги услугите на Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s нема да се извршува без услугите на Google Play што се ажурираат во моментов.</string>
+    <string name="common_google_play_services_wear_update_text">Потребна е нова верзија на услугите на Google Play. Таа наскоро самата ќе се ажурира.</string>
+    <string name="common_open_on_phone">Отвори на телефонот</string>
+    <string name="common_signin_button_text">Најави се</string>
+    <string name="common_signin_button_text_long">Најави се со Google</string>
+    <string name="exit">Exit</string>
+    <string name="install">Инсталирате</string>
+    <string name="lib_cancel">Откажи</string>
+    <string name="lib_five_stars_submit">Поднеси</string>
+    <string name="lib_new_five_stars_choose">Повратната информација е корисна.</string>
+    <string name="lib_new_five_stars_choose_1">Не ми се допаѓа дизајнот</string>
+    <string name="lib_new_five_stars_choose_2">Ги нема функциите кои ми се потребни</string>
+    <string name="lib_new_five_stars_choose_3">Не е лесно за користење</string>
+    <string name="lib_new_five_stars_choose_4">Премногу е комплицирано</string>
+    <string name="lib_new_five_stars_choose_5">Преводот е лош</string>
+    <string name="lib_new_five_stars_close">ЗАТВОРИ</string>
+    <string name="lib_new_five_stars_rate">"Работиме напорно за да го подобриме искуството на корисниците.
+
+Неизмерно ќе ни значи ако ни дадете оценка."</string>
+    <string name="lib_new_five_stars_rate_us">"Критиката ќе им користи и на другите корисници. 
+
+ Напишете критика на Google Play."</string>
+    <string name="lib_rate">Оцени</string>
+    <string name="lib_rate_dislike">Не ми сe допадна</string>
+    <string name="lib_rate_hate_it">Воопшто не ми сe допадна</string>
+    <string name="lib_rate_it_is_ok">Во рeд e</string>
+    <string name="lib_rate_like_it">Ми сe допадна</string>
+    <string name="lib_rate_love_it">Ми сe допадна</string>
+    <string name="lib_rate_on_google">Оцени на Google play</string>
+    <string name="lib_the_best_we_can_get">Најдоброто што може да го добиеме :)</string>
+    <string name="recommended_for_you">Препорачано за тебе</string>
+
+
+
+
+
+
+    <string name="notification_content">"Денешните чекори се &#160;"</string>
+    </resources>

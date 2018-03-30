@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundProgressCircle">
+        <!--圆环背景色-->
+        <attr name="roundBgColor" format="color" />
+        <!--若不开启渐变色圆环进度色-->
+        <attr name="roundProgressColor" format="color" />
+        <!--开启渐变后开始颜色-->
+        <attr name="roundProgressShapeStart" format="color" />
+        <!--开启渐变后结束的颜色-->
+        <attr name="roundProgressShapeEnd" format="color" />
+        <!--是否渐变色-->
+        <attr name="isChange" format="boolean" />
+        <!--进度最大值-->
+        <attr name="max" format="integer" />
+        <!--圆环的宽度-->
+        <attr name="roundWidth" format="dimension" />
+        <!--枚举类型 绘制风格圆是否实心空心-->
+        <attr name="style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+
+    <!-- Don't touch this -->
+    <attr name="numberPickerStyle" format="reference" />
+
+    <declare-styleable name="NumberPicker">
+        <attr name="np_width" format="dimension" />
+        <attr name="np_height" format="dimension" />
+        <attr name="np_dividerColor" format="color" />
+        <attr name="np_dividerDistance" format="dimension" />
+        <attr name="np_dividerThickness" format="dimension" />
+        <attr name="np_formatter" format="string" />
+        <attr name="np_max" format="integer" />
+        <attr name="np_min" format="integer" />
+        <attr name="np_order" format="enum">
+            <enum name="ascending" value="0" />
+            <enum name="descending" value="1" />
+        </attr>
+        <attr name="np_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="np_selectedTextColor" format="color" />
+        <attr name="np_selectedTextSize" format="dimension" />
+        <attr name="np_textColor" format="color" />
+        <attr name="np_textSize" format="dimension" />
+        <attr name="np_typeface" format="string" />
+        <attr name="np_value" format="integer" />
+        <attr name="np_wheelItemCount" format="integer" />
+        <attr name="np_wrapSelectorWheel" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="TextViewDrawableControl">
+        <attr name="drawableLeftWidth" format="dimension" />
+        <attr name="drawableTopWidth" format="dimension" />
+        <attr name="drawableRightWidth" format="dimension" />
+        <attr name="drawableLeftHeight" format="dimension" />
+        <attr name="drawableTopHeight" format="dimension" />
+        <attr name="drawableRightHeight" format="dimension" />
+        <attr name="drawableBottomHeight" format="dimension" />
+        <attr name="drawableBottomWidth" format="dimension" />
+        <attr name="isAliganCenter" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressRing">
+        <!--进度起始色-->
+        <attr name="pr_progress_start_color" format="color" />
+        <!--进度结束色-->
+        <attr name="pr_progress_end_color" format="color" />
+        <!--背景起始色-->
+        <attr name="pr_bg_start_color" format="color" />
+        <!--背景中间色-->
+        <attr name="pr_bg_mid_color" format="color" />
+        <!--背景结束色-->
+        <attr name="pr_bg_end_color" format="color" />
+        <!--进度值 介于0-100-->
+        <attr name="pr_progress" format="integer" />
+        <!--进度宽度-->
+        <attr name="pr_progress_width" format="dimension" />
+        <!--起始角度-->
+        <attr name="pr_start_angle" format="integer" />
+        <!--扫过的角度-->
+        <attr name="pr_sweep_angle" format="integer" />
+        <!--是否显示动画-->
+        <attr name="pr_show_anim" format="boolean" />
+    </declare-styleable>
+
+
+    <!--floataction  button  -->
+
+    <declare-styleable name="FloatingActionButton">
+        <attr name="fab_colorNormal" format="color" />
+        <attr name="fab_colorPressed" format="color" />
+        <attr name="fab_colorDisabled" format="color" />
+        <attr name="fab_colorRipple" format="color" />
+        <attr name="fab_showShadow" format="boolean" />
+        <attr name="fab_shadowColor" format="color" />
+        <attr name="fab_shadowRadius" format="dimension" />
+        <attr name="fab_shadowXOffset" format="dimension" />
+        <attr name="fab_shadowYOffset" format="dimension" />
+        <attr name="fab_size" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="mini" value="1" />
+        </attr>
+        <attr name="fab_showAnimation" format="reference" />
+        <attr name="fab_hideAnimation" format="reference" />
+        <attr name="fab_label" format="string" />
+        <attr name="fab_elevationCompat" format="dimension" />
+        <attr name="fab_progress_color" format="color" />
+        <attr name="fab_progress_backgroundColor" format="color" />
+        <attr name="fab_progress_indeterminate" format="boolean" />
+        <attr name="fab_progress_max" format="integer" />
+        <attr name="fab_progress" format="integer" />
+        <attr name="fab_progress_showBackground" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FloatingActionMenu">
+        <attr name="menu_showShadow" format="boolean" />
+        <attr name="menu_buttonSpacing" format="dimension" />
+        <attr name="menu_labels_margin" format="dimension" />
+        <attr name="menu_labels_showAnimation" format="reference" />
+        <attr name="menu_labels_hideAnimation" format="reference" />
+        <attr name="menu_labels_paddingTop" format="dimension" />
+        <attr name="menu_labels_paddingLeft" format="dimension" />
+        <attr name="menu_labels_paddingRight" format="dimension" />
+        <attr name="menu_labels_paddingBottom" format="dimension" />
+        <attr name="menu_labels_padding" format="dimension" />
+        <attr name="menu_labels_textColor" format="reference|color" />
+        <attr name="menu_labels_textSize" format="dimension" />
+        <attr name="menu_labels_cornerRadius" format="dimension" />
+        <attr name="menu_labels_showShadow" format="boolean" />
+        <attr name="menu_labels_colorNormal" format="color" />
+        <attr name="menu_labels_colorPressed" format="color" />
+        <attr name="menu_labels_colorRipple" format="color" />
+        <attr name="menu_labels_position" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="menu_icon" format="reference" />
+        <attr name="menu_animationDelayPerItem" format="integer" />
+        <attr name="menu_buttonToggleAnimation" format="reference" />
+        <attr name="menu_labels_singleLine" format="boolean" />
+        <attr name="menu_labels_ellipsize" format="enum">
+            <enum name="none" value="0" />
+            <enum name="start" value="1" />
+            <enum name="middle" value="2" />
+            <enum name="end" value="3" />
+            <enum name="marquee" value="4" />
+        </attr>
+        <attr name="menu_labels_maxLines" format="integer" />
+        <attr name="menu_fab_size" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="mini" value="1" />
+        </attr>
+        <attr name="menu_labels_style" format="reference" />
+        <attr name="menu_labels_customFont" format="string" />
+        <attr name="menu_shadowColor" format="color" />
+        <attr name="menu_shadowRadius" format="dimension" />
+        <attr name="menu_shadowXOffset" format="dimension" />
+        <attr name="menu_shadowYOffset" format="dimension" />
+        <attr name="menu_colorNormal" format="color" />
+        <attr name="menu_colorPressed" format="color" />
+        <attr name="menu_colorRipple" format="color" />
+        <attr name="menu_openDirection" format="enum">
+            <enum name="up" value="0" />
+            <enum name="down" value="1" />
+        </attr>
+        <attr name="menu_backgroundColor" format="color" />
+        <attr name="menu_fab_label" format="string" />
+        <attr name="menu_fab_show_animation" format="reference" />
+        <attr name="menu_fab_hide_animation" format="reference" />
+    </declare-styleable>
+
+
+    <!--toptitlebar -->
+
+    <declare-styleable name="CustomTopBar">
+        <attr name="title_background" format="color"/>
+        <attr name="left_button_image" format="reference"/>
+        <attr name="left_button_text" format="string"/>
+        <attr name="left_button_textColor" format="color"/>
+        <attr name="left_button_textSize" format="dimension"/>
+        <attr name="title_text" format="string"/>
+        <attr name="title_textColor" format="color"/>
+        <attr name="title_textSize" format="dimension"/>
+        <attr name="right_button_image" format="reference"/>
+        <attr name="right_button_text" format="string"/>
+        <attr name="right_button_textColor" format="color"/>
+        <attr name="right_button_textSize" format="dimension"/>
+        <attr name="show_line" format="boolean"/>
+    </declare-styleable>
+    
+    
+    <!--singleview2 -->
+    <declare-styleable name="Singview2">
+        <attr name="type_kind" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="SingViewToday">
+        <attr name="typekind" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="SingleViewWeekMulti">
+        <attr name="typekind_mult_week" format="string"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="SingleViewMonth">
+        <attr name="typekind_month" format="string"/>
+    </declare-styleable>
+    
+    
+    
+    
+    <declare-styleable name="MixLinearLayout">
+        
+        <attr name="textvalue_text" format="string"></attr>
+        <attr name="textvalue_color" format="color"/>
+        <attr name="textvalue_size" format="dimension"/>
+
+        <attr name="centerimage_src" format="reference"/>
+        <attr name="centerimage_bg" format="reference"/>
+        <attr name="centerimage_alpha" format="integer"/>
+        <attr name="centerimage_widh" format="dimension"/>
+        <attr name="centerimage_height" format="dimension"/>
+
+        <attr name="textunit_text" format="string"/>
+        <attr name="textunit_color" format="color"/>
+        <attr name="textunit_size" format="dimension"/>
+    </declare-styleable>
+</resources>

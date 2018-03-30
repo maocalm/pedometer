@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.baisi.spedometer.SettingActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:theme="@style/AppTheme.AppBarOverlay"
+                app:elevation="0dp">
+
+                <!--<android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/colorPrimary"
+                    app:layout_scrollFlags="scroll|enterAlways"
+                    app:popupTheme="@style/AppTheme.PopupOverlay"
+                    app:title="@string/setting"></android.support.v7.widget.Toolbar>-->
+            </android.support.design.widget.AppBarLayout>
+
+            <TextView
+                style="@style/text_title_style"
+                android:text="@string/profile" />
+
+            <RelativeLayout
+                android:id="@+id/rl_gender"
+                style="@style/content_relative">
+
+                <TextView
+                    android:id="@+id/gender_title"
+                    style="@style/content_title_style"
+                    android:text="@string/gender" />
+
+                <TextView
+                    style="@style/content_msg_style"
+                    android:layout_below="@+id/gender_title"
+                    android:text="@string/gender_desc" />
+
+
+                <TextView
+                    android:id="@+id/tv_show_gender"
+                    style="@style/content_msg_show_style"
+                    android:text="@string/female" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_height"
+                style="@style/content_relative">
+
+                <TextView
+                    android:id="@+id/height_title"
+                    style="@style/content_title_style"
+                    android:text="@string/height" />
+
+                <TextView
+                    style="@style/content_msg_style"
+                    android:layout_below="@+id/height_title"
+                    android:text="@string/height_desc" />
+
+                <TextView
+                    android:id="@+id/tv_show_height"
+                    style="@style/content_msg_show_style"
+                    android:text="164cm" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_weight"
+                style="@style/content_relative">
+
+                <TextView
+                    android:id="@+id/weight_title"
+                    style="@style/content_title_style"
+                    android:text="@string/weight" />
+
+                <TextView
+                    style="@style/content_msg_style"
+                    android:layout_below="@+id/weight_title"
+                    android:text="@string/weight_desc" />
+
+                <TextView
+                    android:id="@+id/tv_show_weight"
+                    style="@style/content_msg_show_style"
+                    android:text="53.0kg" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_metric"
+                style="@style/one_title_style_rl">
+
+                <TextView
+                    android:id="@+id/metric_title"
+                    style="@style/content_title_style"
+                    android:text="@string/unit_type" />
+
+                <TextView
+                    android:id="@+id/tv_show_metric"
+                    style="@style/content_msg_show_style" />
+            </RelativeLayout>
+
+            <TextView
+                style="@style/text_title_style"
+                android:text="@string/pedometer_preferences" />
+
+            <RelativeLayout
+                android:id="@+id/rl_setp_goal"
+                style="@style/one_title_style_rl">
+
+                <TextView
+                    android:id="@+id/tv_setp_goal_title"
+                    style="@style/content_title_style"
+                    android:text="@string/goal_ins_title" />
+
+                <TextView
+                    android:id="@+id/tv_show_goal"
+                    style="@style/content_msg_show_style"
+                    android:text="6000" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_nott"
+                style="@style/one_title_style_rl">
+
+                <TextView
+                    android:id="@+id/noti_title"
+                    style="@style/content_title_style"
+                    android:layout_centerVertical="true"
+                    android:text="@string/step_counter_notification" />
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/swc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@null"
+                    android:theme="@style/MySwitchScreen"
+                    app:thumbTintMode="src_in" />
+            </RelativeLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"></FrameLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

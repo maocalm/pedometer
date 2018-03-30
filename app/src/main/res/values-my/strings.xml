@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_enable_button">ဖွင့်ရန်</string>
+    <string name="common_google_play_services_enable_text">Google Play ဝန်ဆောင်မှုများကို မဖွင့်သ၍ %1$s သည်အလုပ်လုပ်မည်မဟုတ်ပါ။</string>
+    <string name="common_google_play_services_enable_title">Google Play ဝန်ဆောင်မှုများ ဖွင့်ရန်</string>
+    <string name="common_google_play_services_install_button">ထည့်သွင်းပါ</string>
+    <string name="common_google_play_services_install_text">သင့်တက်ဘလက်တွင် Google Play ဝန်ဆောင်မှုများမရှိသောကြောင့် %1$s ကိုဖွင့်၍မရပါ။</string>
+    <string name="common_google_play_services_install_title">Google Play ဝန်ဆောင်မှုများရယူရန်</string>
+    <string name="common_google_play_services_notification_ticker">Google Play ဝန်ဆောင်မှုများ အမှား</string>
+    <string name="common_google_play_services_unknown_issue">%1$s သည် Google Play ဝန်ဆောင်မှုများနှင့် ပြဿနာအနည်းငယ် ရှိနေပါသည်။ ထပ်လုပ်ကြည့်ပါ။</string>
+    <string name="common_google_play_services_unsupported_text">Google Play ဝန်ဆောင်မှုများကို သင့်စက်ပစ္စည်းတွင် ပံ့ပိုးမထားသည့်အတွက် ၎င်းမရှိဘဲ %1$s ကို ဖွင့်၍မရပါ။</string>
+    <string name="common_google_play_services_update_button">အပ်ဒိတ်</string>
+    <string name="common_google_play_services_update_text">Google Play ဝန်ဆောင်မှုများအား အပ်ဒိတ်မလုပ်ပါက %1$s အလုပ်လုပ်မည် မဟုတ်ပါ။</string>
+    <string name="common_google_play_services_update_title">Google Play ဝန်ဆောင်မှုများကို အပ်ဒိတ်လုပ်ရန်</string>
+    <string name="common_google_play_services_updating_text">Google Play ဝန်ဆောင်မှုများကို လက်ရှိအပ်ဒိတ်လုပ်နေသောကြောင့် %1$s ကိုဖွင့်၍ရမည်မဟုတ်ပါ။</string>
+    <string name="common_google_play_services_wear_update_text">Google Play ဝန်ဆောင်မှုဗားရှင်းအသစ်များ လိုအပ်နေသည်။ အချိန်အနည်းငယ်အကြာတွင် ၎င်းကိုယ်တိုင်အပ်ဒိတ်လုပ်ပါ လိမ့်မည်။</string>
+    <string name="common_open_on_phone">ဖုန်းပေါ်မှာ ဖွင့်ပါ</string>
+    <string name="common_signin_button_text">လက်မှတ်ထိုး ဝင်ရန်</string>
+    <string name="common_signin_button_text_long">Google ဖြင့် လက်မှတ်ထိုးဝင်ရေ</string>
+    <string name="lib_cancel">Batal</string>
+    <string name="lib_five_stars_submit">Serah</string>
+    <string name="lib_new_five_stars_choose">Maklum balas anda adalah berguna.</string>
+    <string name="lib_new_five_stars_choose_1">Saya tidak suka dengan reka bentuk</string>
+    <string name="lib_new_five_stars_choose_2">Ia tidak mempunyai fungsi yang saya perlukan</string>
+    <string name="lib_new_five_stars_choose_3">Ia tidak mudah digunakan</string>
+    <string name="lib_new_five_stars_choose_4">Ia terlalu rumit</string>
+    <string name="lib_new_five_stars_choose_5">Terjemahannya sangat lemah</string>
+    <string name="lib_new_five_stars_close">TUTUP</string>
+    <string name="lib_new_five_stars_rate">"Kami berusaha keras untuk pengalaman pengguna yang lebih baik.
+
+Kami amat menghargainya jika anda boleh menilai kami."</string>
+    <string name="lib_new_five_stars_rate_us">"Pengguna lain akan mendapat manfaat daripada ulasan anda.
+
+Sila tinggalkan ulasan anda di Google Play."</string>
+    <string name="lib_rate">Nilaikan</string>
+    <string name="lib_rate_dislike">Tidak menyukainya</string>
+    <string name="lib_rate_hate_it">Membencinya</string>
+    <string name="lib_rate_it_is_ok">Sederhana</string>
+    <string name="lib_rate_like_it">Menyukainya</string>
+    <string name="lib_rate_love_it">Menggemarinya</string>
+    <string name="lib_rate_on_google">Nilaikan di Google Play</string>
+    <string name="lib_the_best_we_can_get">Terbaik yang kita boleh dapat :)</string>
+
+
+
+
+
+    <string name="notification_content">"ယနေ့ခြေလှမ်းများဖြစ်ကြောင်း &#160;"</string>
+</resources>

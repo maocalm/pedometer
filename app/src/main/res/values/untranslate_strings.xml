@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="kg_cm" translatable="false">kg / cm</string>
+    <string name="lbs_ft" translatable="false">lbs / ft</string>
+    <string name="cm" translatable="false">cm</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="cancle" translatable="false">CANCLE</string>
+    <!--<string name="kcal" translatable="false">kcal</string>-->
+    <string name="km" translatable="false">km</string>
+    <string name="kg" translatable="false">kg</string>
+    <string name="walkingtime" translatable="false">walking time</string>
+    <string name="facebook_app_id">103337143779012</string>
+    <string name="kong_ge">&#160; </string>
+
+    <!--<string name="flicke_page_des" > Calorie Counter & Step Counter</string>-->
+</resources>

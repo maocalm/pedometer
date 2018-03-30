@@ -1,0 +1,385 @@
+<resources>
+    <!-- <string name="app_name">Pedometer</string>
+
+     <string name="report">Report</string>
+     <string name="today">Today</string>
+     <string name="setting">Settings</string>
+     &lt;!&ndash;guide&ndash;&gt;
+     <string name="select_gender">Select Gender</string>
+
+     <string name="gender_description">Calories &amp; stride length calculation needs it.</string>
+     &lt;!&ndash;guide_profile&ndash;&gt;
+     <string name="profile">My Profile</string>
+     <string name="profile_description">To ensure the accuracy,please input your accurate information.\n We never share themWith third parties.</string>
+     <string name="pg_next">NEXT</string>
+     <string name="start">START</string>
+     <string name="my_profile">My Profile</string>
+     &lt;!&ndash;性别&ndash;&gt;
+     <string name="gender">Gender</string>
+     <string name="female">Female</string>
+     <string name="male">Male</string>
+     <string name="gender_desc">Stride length calculation needs it</string>
+     &lt;!&ndash;身高&ndash;&gt;
+     <string name="height">Height</string>
+     <string name="height_desc">Distance &amp; speed calculation needs it</string>
+     &lt;!&ndash;体重&ndash;&gt;
+     <string name="weight">Weight</string>
+     <string name="weight_desc">Calories calculation needs it</string>
+
+     &lt;!&ndash;计量单位&ndash;&gt;
+     <string name="unit_type">Metric &amp; Imperial Unit</string>
+     <string name="unit_km">km</string>
+     <string name="unit_kg">kg</string>
+     <string name="unit_cm">cm</string>
+     <string name="kcal">Kcal</string>
+     <string name="unit_lbs">lbs</string>
+     <string name="walking_time">Walking Time</string>
+     <string name="unit_feet">in</string>
+
+
+     &lt;!&ndash;偏好设置&ndash;&gt;
+     <string name="pedometer_preferences">Preference Settings</string>
+     &lt;!&ndash;目标步数&ndash;&gt;
+     <string name="goal_with_value">Goal: %s</string>
+     <string name="goal_ins_title">Step Goal</string>
+     <string name="goal_msg">Report calculation needs it</string>
+     &lt;!&ndash;notification&ndash;&gt;
+     <string name="step_counter_notification">Notification Bar</string>
+     <string name="title_activity_guide">GuideActivity</string>
+     <string name="action_settings">Settings</string>
+     <string name="section_format">Hello World from section: %1$d</string>
+
+     &lt;!&ndash;button resume_pause &ndash;&gt;
+     <string name="pause">Pause</string>
+     <string name="resume">Resume</string>
+     <string name="paused">Paused</string>
+     &lt;!&ndash;in progress goal&ndash;&gt;
+     <string name="html_goal"><![CDATA[Goal:<font>%s</font>]]></string>
+     &lt;!&ndash;step  in progress&ndash;&gt;
+     <string name="steps">Steps</string>
+
+     &lt;!&ndash;report fragmen &ndash;&gt;
+     <string name="step">Step</string>
+     <string name="calorie">Calorie</string>
+     <string name="tab_calorie">Calorie</string>
+     <string name="tab_step">Step</string>
+     <string name="tab_time">Time</string>
+     <string name="tab_distance">Distance</string>
+     <string name="time">Time</string>
+     <string name="distance">Distance</string>
+     <string name="daily_average">Daily average:</string>
+     <string name="dailyaveragehtml"><![CDATA[Daily average:<font>%s</font>]]></string>
+
+     &lt;!&ndash;notification &ndash;&gt;
+     <string name="notification_content">"Today's steps are &#160;"</string>
+     <string name="notification_step">&#160; steps</string>
+
+     <string name="back_toast" translatable="true">Press again to exit the program</string>
+     <string name="pg_permission_dialog_sub_title">To make sure %s works properly</string>
+
+     &lt;!&ndash;permission dialog &ndash;&gt;
+
+
+     <string name="pg_permission_dialog_title">Permission Required</string>
+     <string name="pg_permission_protect_app">Protected apps</string>
+     <string name="update_settings">UPDATE SETTINGS</string>
+
+
+     <string name="btn_cancel">CANCLE</string>
+     <string name="btn_confirm_ok">OK</string>-->
+
+    <!--================================================================-->
+
+    <string name="notification_content">"Today's steps are &#160;"</string>
+    <string name="back_toast" translatable="false">Press again to exit the program</string>
+    <string name="abc_action_bar_home_description" translatable="false">Navigate home</string>
+    <string name="abc_action_bar_home_description_format" translatable="false">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format" translatable="false">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description" translatable="false">Navigate up</string>
+    <string name="abc_action_menu_overflow_description" translatable="false">More options</string>
+    <string name="abc_action_mode_done" translatable="false">Done</string>
+    <string name="abc_activity_chooser_view_see_all" translatable="false">See all</string>
+    <string name="abc_activitychooserview_choose_application" translatable="false">Choose an app</string>
+    <string name="abc_capital_off" translatable="false">OFF</string>
+    <string name="abc_capital_on" translatable="false">ON</string>
+    <string name="abc_search_hint" translatable="false">Search…</string>
+    <string name="abc_searchview_description_clear" translatable="false">Clear query</string>
+    <string name="abc_searchview_description_query" translatable="false">Search query</string>
+    <string name="abc_searchview_description_search" translatable="false">Search</string>
+    <string name="abc_searchview_description_submit" translatable="false">Submit query</string>
+    <string name="abc_searchview_description_voice" translatable="false">Voice search</string>
+    <string name="abc_shareactionprovider_share_with" translatable="false">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application" translatable="false">Share with %s</string>
+    <string name="abc_toolbar_collapse_description" translatable="false">Collapse</string>
+    <string name="common_google_play_services_enable_button" translatable="false">Enable</string>
+    <string name="common_google_play_services_enable_text" translatable="false">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title" translatable="false">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button" translatable="false">Install</string>
+    <string name="common_google_play_services_install_text" translatable="false">"%1$s won't run without Google Play services, which are missing from your device."</string>
+    <string name="common_google_play_services_install_title" translatable="false">Get Google Play services</string>
+    <string name="common_google_play_services_notification_ticker" translatable="false">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue" translatable="false">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text" translatable="false">"%1$s won't run without Google Play services, which are not supported by your device."</string>
+    <string name="common_google_play_services_update_button" translatable="false">Update</string>
+    <string name="common_google_play_services_update_text" translatable="false">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title" translatable="false">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text" translatable="false">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_wear_update_text" translatable="false">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone" translatable="false">Open on phone</string>
+    <string name="common_signin_button_text" translatable="false">Sign in</string>
+    <string name="common_signin_button_text_long" translatable="false">Sign in with Google</string>
+    <string name="exo_controls_fastforward_description" translatable="false">Fast forward</string>
+    <string name="exo_controls_next_description" translatable="false">Next track</string>
+    <string name="exo_controls_pause_description" translatable="false">Pause</string>
+    <string name="exo_controls_play_description" translatable="false">Play</string>
+    <string name="exo_controls_previous_description" translatable="false">Previous track</string>
+    <string name="exo_controls_rewind_description" translatable="false">Rewind</string>
+    <string name="exo_controls_stop_description" translatable="false">Stop</string>
+    <string name="search_menu_title" translatable="false">Search</string>
+    <string name="status_bar_notification_info_overflow" translatable="false">999+</string>
+    <string name="EXIT" translatable="false">EXIT</string>
+    <string name="accuracy_ins_content" translatable="false">We use the <b>built-in sensor</b> in your phone to count your steps, so the accuracy is based on how good the sensor is.</string>
+    <string name="accuracy_ins_title" translatable="false">Accuracy</string>
+    <!--<string name="app_name">Pedometer Step Counter</string>-->
+    <string name="app_name">Pedometer</string>
+    <string name="auth_failed_tip">Authorization failed because of network problems. Please check the network and try again.</string>
+    <string name="badges">Badges</string>
+    <string name="battery_saving_ins_content">We read your steps from the <b>built-in sensor</b>". No GPS tracking. You can pause the app to save the battery when you're not walking."</string>
+    <string name="battery_saving_ins_title">Battery Saving</string>
+    <string name="btn_cancel">Cancle</string>
+    <string name="btn_confirm_ok">Ok</string>
+    <string name="btn_confirm_save">Save</string>
+    <string name="calories_distance_time_ins_content">We use your height and weight to calculate your burned calories &amp; distance, so please ensure you input accurate information in the settings.</string>
+    <string name="calories_distance_time_ins_title">Calories &amp; Distance</string>
+    <string name="check_it">Check it</string>
+    <string name="complete_all_badge">"You've won all badges of this week! Amazing!"</string>
+    <string name="daily_average">Daily average:</string>
+    <string name="daily_highest_speed">Daily Highest Speed:</string>
+    <string name="dialog_set_new_goal_accept">Accept</string>
+    <string name="dialog_set_new_goal_content">Set a new goal now?</string>
+    <string name="dialog_set_new_goal_not_now">Not now</string>
+    <string name="dialog_set_new_goal_title">"You've achieved %1$s steps for %2$s days."</string>
+    <string name="distance">Distance</string>
+    <string name="download">Download</string>
+    <string name="exit">Exit</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedback_email_title">%s Feedback</string>
+    <string name="feedback_mail_text">System info</string>
+    <string name="female">Female</string>
+    <string name="fix_it">Fix it</string>
+    <string name="fix_it_now">Fix it now</string>
+    <string name="forcibly_stopped">Pedometer was forcibly stopped</string>
+    <string name="forcibly_stopped_reason">Due to the limitation of some devices or security apps, the Pedometer was forcibly stopped.</string>
+    <string name="gender">Gender</string>
+    <string name="gender_desc">Stride length calculation needs it</string>
+    <string name="gender_description">Calories &amp; stride length calculation needs it.</string>
+    <string name="get_app">GET FROM GOOGLE PLAY</string>
+    <string name="goal_ins_content">We help you set your goal according to your achieved steps to keep you motivated.</string>
+    <string name="goal_ins_title">Step Goal</string>
+    <string name="goal_with_value">Goal: %s</string>
+    <string name="guide_to_settings">Grant storage permission to share image</string>
+    <string name="height">Height</string>
+    <string name="height_desc">Distance &amp; speed calculation needs it</string>
+    <string name="help">Help</string>
+    <string name="high">High</string>
+    <string name="history">Timeline</string>
+    <string name="how_fix_stop_count">How to fix the \"Stop Counting Steps\" issue?</string>
+    <string name="how_to_ensure_accuracy">How to ensure the accuracy of step counting?</string>
+    <string name="how_to_fix_issue">How to fix the \"Stop Counting Steps\" issue?</string>
+    <string name="how_to_ins_content">Click <b>Start</b> to count steps, and click <b>Pause</b> to stop and save the battery. Take your phone with you.</string>
+    <string name="how_to_ins_title">How to</string>
+    <string name="imperial">Imperial</string>
+    <string name="install">Install</string>
+    <string name="instructions">Instructions</string>
+    <string name="kCal_1">250 Kcal</string>
+    <string name="kCal_2">500 Kcal</string>
+    <string name="kCal_3">1000 Kcal</string>
+    <string name="kCal_4">2000 Kcal</string>
+    <string name="kCal_5">3500 Kcal</string>
+    <string name="kCal_6">5000 Kcal</string>
+    <string name="kcal">Kcal</string>
+    <string name="lib_cancel">Cancel</string>
+    <string name="lib_five_stars_submit">Submit</string>
+    <string name="lib_new_five_stars_choose">Your feedback is useful.</string>
+    <string name="lib_new_five_stars_choose_1">I don’t like the design</string>
+    <string name="lib_new_five_stars_choose_2">It doesn’t have the functions I need</string>
+    <string name="lib_new_five_stars_choose_3">It’s not easy to use</string>
+    <string name="lib_new_five_stars_choose_4">It’s too complicated</string>
+    <string name="lib_new_five_stars_choose_5">The translation is poor</string>
+    <string name="lib_new_five_stars_close">CLOSE</string>
+    <string name="lib_new_five_stars_rate">"We are working hard for a better user experience.
+
+ We’d greatly appreciate if you can rate us."</string>
+    <string name="lib_new_five_stars_rate_us">"Other users will benefit from your review.
+
+ Please leave your review on Google Play."</string>
+    <string name="lib_rate">Rate</string>
+    <string name="lib_rate_dislike">Disliked it</string>
+    <string name="lib_rate_hate_it">Hated it</string>
+    <string name="lib_rate_it_is_ok">"It's ok"</string>
+    <string name="lib_rate_like_it">Liked it</string>
+    <string name="lib_rate_love_it">Loved it</string>
+    <string name="lib_rate_on_google">Rate on Google play</string>
+    <string name="lib_the_best_we_can_get">The best we can get :)</string>
+    <string name="low">Low</string>
+    <string name="male">Male</string>
+    <string name="medium">Medium</string>
+    <string name="metric">Metric</string>
+    <string name="miles">Miles</string>
+    <string name="month">Month</string>
+    <string name="more">More</string>
+    <string name="new_record">New record</string>
+    <string name="next">Next</string>
+    <string name="next_badge_description">%s to win this badge</string>
+    <string name="notification_goal_reached">"Achieved today's goal! Congratulation!"</string>
+    <string name="notification_new_record">"You've set a new record!"</string>
+    <string name="pause">Pause</string>
+    <string name="paused">Paused</string>
+    <string name="pedometer_preferences">Preference Settings</string>
+    <string name="permission_denied">Share cancelled</string>
+    <string name="pg_allowed">Allowed</string>
+    <string name="pg_go_to_set">Go to set</string>
+    <string name="pg_permission_auto_start">Auto start</string>
+    <string name="pg_permission_dialog_sub_title">To make sure %s works properly</string>
+    <string name="pg_permission_dialog_title">Permission Required</string>
+    <string name="pg_permission_guide_huawei_popup_1">Find and click Dropzone Manager</string>
+    <string name="pg_permission_guide_huawei_popup_2">Find %s and allow the permission</string>
+    <string name="pg_permission_guide_huawei_protect">Please open %s</string>
+    <string name="pg_permission_guide_meizu_popup">Please open Pop-up permission</string>
+    <string name="pg_permission_guide_xiaomi_popup_1">Find and click Permission Manager</string>
+    <string name="pg_permission_guide_xiaomi_popup_2">Find Display pop up window and click the button</string>
+    <string name="pg_permission_popup">Display over other apps</string>
+    <string name="pg_permission_protect_app">Protected apps</string>
+    <string name="placement_ins_content">"We suggest you put it: in your hand, pocket, bag, armband or places close to your body.
+
+ Don't put it: in places away from your body, places that shake too fast or places that have little movement."</string>
+    <string name="placement_ins_title">Placement Suggestion</string>
+    <string name="privacy_ins_content">100% private. No personal data collection. No data sharing with third parties.</string>
+    <string name="privacy_ins_title">Privacy</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="profile">My Profile</string>
+    <string name="profile_description">To ensure the accuracy, please input your accurate information. We never share them with third parties.</string>
+    <string name="purchased_failed">"The Google Paid service isn't available at the moment or in your country, you can continue to use the application except paying for removing ads."</string>
+    <string name="purchased_failed_title">"Can't make purchase"</string>
+    <string name="purchased_success">You have successfully purchased</string>
+    <string name="recommended_for_you">Recommended for you</string>
+    <string name="remove_ad">Remove Ads</string>
+    <string name="report">Report</string>
+    <string name="require_permission">We need to save screenshot to share</string>
+    <string name="reset">Reset</string>
+    <string name="reset_step_confirm_content">"Are you sure to reset today's steps?"</string>
+    <string name="resume">Resume</string>
+    <string name="retry">Retry</string>
+    <string name="select_gender">Select Gender</string>
+    <string name="sensitivity">Sensitivity</string>
+    <string name="sensitivity_desc">High sensitivity means small movements will be counted as steps</string>
+    <string name="set_language">Language options</string>
+    <string name="setting">Settings</string>
+    <string name="shake_phone_content">"If you shake your phone, it might be counted as steps because of the built-in sensor.
+
+ It's not a bug."</string>
+    <string name="shake_phone_title">Count steps when shaking phone</string>
+    <string name="share">Share</string>
+    <string name="share_error">Share image error</string>
+    <string name="share_text">"I've achieved %s steps this week!"</string>
+    <string name="share_title">Shared from %s</string>
+    <string name="share_url">https://goo.gl/UjHMEM</string>
+    <string name="share_with">Share with</string>
+    <string name="speed">Speed</string>
+    <string name="start">Start</string>
+    <string name="step">Step</string>
+    <string name="step_counter_notification">Notification Bar</string>
+    <string name="step_length_ins_content">We use step length to get your distance. Step length can be calculated when your height is entered.</string>
+    <string name="step_length_ins_title">Step length</string>
+    <string name="steps">Steps</string>
+    <string name="steps_1">5000 Steps</string>
+    <string name="steps_2">10000 Steps</string>
+    <string name="steps_3">15000 Steps</string>
+    <string name="steps_4">50000 Steps</string>
+    <string name="steps_5">80000 Steps</string>
+    <string name="steps_6">120000 Steps</string>
+    <string name="stop_counting_ins_content">Due to the limitation of some devices or security apps, the Pedometer may be forcibly stopped. <u>Click here</u></string>
+    <string name="stop_counting_ins_title">Stops Counting?</string>
+    <string name="system_default">System default</string>
+    <string name="tab_calorie">Calorie</string>
+    <string name="tab_step">Step</string>
+    <string name="taking_screenshot">Taking Screenshot</string>
+    <string name="this_week">This week</string>
+    <string name="time">Time</string>
+    <string name="time_hour">h</string>
+    <string name="time_minute">m</string>
+    <string name="time_second">s</string>
+    <string name="tips">Tips</string>
+    <string name="today">Today</string>
+    <string name="unit_cm">cm</string>
+    <string name="unit_feet">ft</string>
+    <string name="unit_inch">in</string>
+    <string name="unit_kcal">Kcal</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_km">Km</string>
+    <string name="unit_km_h">Km/H</string>
+    <string name="unit_lbs">lbs</string>
+    <string name="unit_miles">Mile</string>
+    <string name="unit_mph">MPH</string>
+    <string name="unit_type">Metric &amp; Imperial Unit</string>
+    <string name="walking_time">Walking Time</string>
+    <string name="week">Week</string>
+    <string name="weekly_calories">Weekly Burned Calories</string>
+    <string name="weekly_steps">Weekly Steps</string>
+    <string name="weight">Weight</string>
+    <string name="weight_desc">Calories calculation needs it</string>
+    <string name="pg_next">NEXT</string>
+    <string name="pg_previous">PREVIOUS</string>
+    <string name="update_settings">UPDATE SETTINGS</string>
+    <string name="abc_font_family_body_1_material">sans-serif</string>
+    <string name="abc_font_family_body_2_material">sans-serif-medium</string>
+    <string name="abc_font_family_button_material">sans-serif-medium</string>
+    <string name="abc_font_family_caption_material">sans-serif</string>
+    <string name="abc_font_family_display_1_material">sans-serif</string>
+    <string name="abc_font_family_display_2_material">sans-serif</string>
+    <string name="abc_font_family_display_3_material">sans-serif</string>
+    <string name="abc_font_family_display_4_material">sans-serif-light</string>
+    <string name="abc_font_family_headline_material">sans-serif</string>
+    <string name="abc_font_family_menu_material">sans-serif</string>
+    <string name="abc_font_family_subhead_material">sans-serif</string>
+    <string name="abc_font_family_title_material">sans-serif-medium</string>
+    <string name="alarm_30_minutes_of_walking">A brisk 30-minute walk can burn 200 calories.</string>
+    <string name="alarm_a_brisk_30_minute">30-minute walk everyday can reduce the risk of diabetes by 25%.</string>
+    <string name="alarm_beautiful_shape">Good shape comes from insistence, see how many steps you have gone today.</string>
+    <string name="alarm_three_times_a_week">Walking 10,000 steps everyday can reduce the risk of heart disease.</string>
+    <string name="alarm_to_get_in_shape">To get a good figure, you may only need a 30-minute walk every day.</string>
+    <string name="alarm_your_figure">Your figure will show you your efforts won’t be in vain.</string>
+    <string name="altamob_app_key">6cfd80b4-daf6-e375-1c67-95d71be9f587</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="build_info">1.0.12-1709301823</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <!--<string name="com.crashlytics.android.build_id">0a091800-057a-4232-91fc-fdee0b5d6b2f</string>-->
+    <string name="faq">FAQ</string>
+    <string name="fitbit">Fitbit</string>
+    <string name="fitbit_sync_success">Synchronization was successful. You can check it in Fitbit.</string>
+    <string name="lib_roboto_medium">sans-serif-medium</string>
+    <string name="lib_roboto_regular">sans-serif</string>
+    <string name="md_back_label">Back</string>
+    <string name="md_cancel_label">Cancel</string>
+    <string name="md_choose_label">Choose</string>
+    <string name="md_custom_label">Custom</string>
+    <string name="md_done_label">Done</string>
+    <string name="md_error_label">Error</string>
+    <string name="md_presets_label">Presets</string>
+    <string name="md_storage_perm_error">Your app has not been granted the READ_EXTERNAL_STORAGE permission.</string>
+    <string name="new_folder">New Folder</string>
+    <string name="password_toggle_content_description">Toggle password visibility</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="roboto_light">sans-serif-light</string>
+    <string name="roboto_medium">sans-serif-medium</string>
+    <string name="roboto_regular">sans-serif</string>
+    <string name="setting_services">Services</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

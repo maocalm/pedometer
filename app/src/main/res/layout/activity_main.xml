@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.baisi.spedometer.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--<android.support.design.widget.AppBarLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:theme="@style/AppTheme.AppBarOverlay"-->
+            <!--app:elevation="0dp">-->
+
+             <!--<android.support.v7.widget.Toolbar-->
+                 <!--android:id="@+id/toolbar"-->
+                 <!--android:layout_width="match_parent"-->
+                 <!--android:layout_height="?attr/actionBarSize"-->
+                 <!--android:background="?attr/colorPrimary"-->
+                 <!--app:layout_scrollFlags="scroll|enterAlways"-->
+                 <!--app:logo="@mipmap/icon_title"-->
+                 <!--app:popupTheme="@style/AppTheme.PopupOverlay"-->
+                 <!--app:title="@string/app_name">-->
+             <!--</android.support.v7.widget.Toolbar>-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_activity_bg"
+                android:gravity="center_vertical"
+                android:padding="6dp">
+                <ImageView
+                    android:id="@+id/pic"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@mipmap/icon_title"
+                    android:layout_centerVertical="true"
+                    />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/pic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textColor="@color/pedo_step_tv"
+                    android:textSize="16sp"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/sport_time"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:src="@mipmap/run"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+        <!--</android.support.design.widget.AppBarLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tablayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_activity_bg"
+                app:tabMode="scrollable"
+                app:tabSelectedTextColor="@color/end_gradient_color"
+                app:tabTextColor="@android:color/white" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viepager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </android.support.v4.view.ViewPager>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/ad_frame"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary">
+
+    </FrameLayout>
+
+    <com.baisi.spedometer.view.floataction.FloatingActionMenu
+        android:id="@+id/menu_down"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:elevation="6dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="140dp"
+        fab:menu_colorNormal="@color/end_gradient_color"
+        fab:menu_fab_size="mini"
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_singleLine="true"
+        fab:menu_openDirection="down"
+        fab:menu_backgroundColor="@color/zhezhao">
+
+        <com.baisi.spedometer.view.floataction.FloatingActionButton
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/reset"
+            fab:fab_colorNormal="@color/end_gradient_color"
+            fab:fab_label="@string/reset"
+            fab:fab_size="mini" />
+
+        <com.baisi.spedometer.view.floataction.FloatingActionButton
+            android:id="@+id/timeline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/timeline"
+            fab:fab_colorNormal="@color/end_gradient_color"
+            fab:fab_label="@string/history"
+            fab:fab_size="mini" />
+
+
+    </com.baisi.spedometer.view.floataction.FloatingActionMenu>
+</RelativeLayout>

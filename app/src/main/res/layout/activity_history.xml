@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_activity_bg"
+    android:orientation="vertical"
+    tools:context="com.baisi.spedometer.HistoryActivity">
+
+
+    <!-- <com.baisi.spedometer.view.CustomTopBar
+         android:id="@+id/top_bar"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         app:left_button_image="@drawable/md_nav_back"
+         app:left_button_text="@string/history"
+         app:left_button_textSize="15sp"
+         app:left_button_textColor="@color/pedo_step_tv"
+         >
+
+     </com.baisi.spedometer.view.CustomTopBar>-->
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_activity_bg"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/backimage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/md_nav_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/backimage"
+            android:text="@string/history"
+            android:textColor="@color/pedo_step_tv"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/historyrecycleview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <FrameLayout
+            android:id="@+id/ad_frame"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/main_activity_bg"></FrameLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/progress_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/zhezhao"
+        android:visibility="gone">
+
+        <android.support.v4.widget.ContentLoadingProgressBar
+            android:id="@+id/contentload"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

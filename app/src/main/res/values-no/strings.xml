@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exit">Exit</string>
+    <string name="install">Installere</string>
+    <string name="recommended_for_you">Anbefalt for deg</string>
+
+
+
+
+
+    <string name="notification_content">"Dagens skritt er &#160;"</string>
+</resources>

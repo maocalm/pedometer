@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="week_name">
+        <item>احد</item>
+        <item>اثن</item>
+        <item>ثلا</item>
+        <item>ارب</item>
+        <item>خمي</item>
+        <item>جمع</item>
+        <item>سبت</item>
+    </string-array>
+    <string-array name="week_name_full">
+        <item>الأحد</item>
+        <item>الإثنين</item>
+        <item>الثلاثاء</item>
+        <item>الأربعاء</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+        <item>السبت</item>
+    </string-array>
+</resources>

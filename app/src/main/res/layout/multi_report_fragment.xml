@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_activity_bg"
+    tools:ignore="MissingPrefix">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/week"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.baisi.spedometer.view.InterceptRelayout
+                    android:id="@+id/week_relayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.baisi.spedometer.view.CustomTopBar
+                        android:id="@+id/header_week"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:left_button_text="@string/week"
+                        app:left_button_textColor="@color/pedo_step_tv"
+                        app:right_button_image="@drawable/pg_ic_permission_arrow"
+                        app:right_button_text="@string/more"
+                        app:title_background="@color/main_activity_bg" />
+
+                    <com.baisi.spedometer.view.chatview.SingleViewWeekMulti
+                        android:id="@+id/weekchartview"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/header_week"
+                        app:leftColor="@color/leftColor"
+                        app:leftColorBottom="@color/caloriecolor"
+                        app:selectLeftColor="@color/selectLeftColor"
+                        app:xyColor="@color/xyColor"
+                        app:type_kind="week"/>
+
+                    <LinearLayout
+                        android:id="@+id/weekchoose_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_below="@id/weekchartview"
+                        android:layout_marginTop="2dp"
+                        android:gravity="bottom"
+                        android:orientation="horizontal"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp">
+
+                        <TextView
+                            android:id="@+id/step_tv"
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/report_tv_selector"
+                            android:gravity="center"
+                            android:text="@string/tab_step"
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp"
+                            android:clickable="false"/>
+
+                        <TextView
+                            android:id="@+id/calorle_tv"
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/report_tv_stroke"
+                            android:gravity="center"
+                            android:text="@string/tab_calorie"
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp"
+                            android:clickable="false"/>
+
+                        <TextView
+                            android:id="@+id/time_tv"
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/report_tv_stroke"
+                            android:gravity="center"
+                            android:text="@string/time"
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp"
+                            android:clickable="false"/>
+
+                        <TextView
+                            android:id="@+id/distance_tv"
+                            android:layout_width="0dp"
+                            android:layout_height="36dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/report_tv_stroke"
+                            android:gravity="center"
+                            android:text="@string/distance"
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp"
+                            android:clickable="false"/>
+
+                    </LinearLayout>
+
+                </com.baisi.spedometer.view.InterceptRelayout>
+                <FrameLayout
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/ad_frame1"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/week_relayout"
+                    android:layout_weight="0"
+                    android:background="@color/colorPrimary" />
+            </RelativeLayout>
+
+
+            <com.baisi.spedometer.view.InterceptRelayout
+                android:id="@+id/today_relayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:descendantFocusability="blocksDescendants"
+                android:clickable="true"
+                >
+                <com.baisi.spedometer.view.CustomTopBar
+                    android:id="@+id/header_today"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:left_button_text="@string/today"
+                    app:left_button_textColor="@color/pedo_step_tv"
+                    app:right_button_image="@drawable/pg_ic_permission_arrow"
+                    app:right_button_text="@string/more"
+                    app:title_background="@color/main_activity_bg"
+                    android:clickable="false"
+                    android:focusable="false"
+                    />
+
+                <com.baisi.spedometer.view.chatview.SingViewToday
+                    android:id="@+id/todaychartview"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_below="@+id/header_today"
+                    app:leftColor="@color/leftColor"
+                    app:leftColorBottom="@color/caloriecolor"
+                    app:selectLeftColor="@color/selectLeftColor"
+                    app:xyColor="@color/xyColor"
+                    app:type_kind="week"
+                    android:clickable="false"
+                    android:focusable="false"
+                    app:typekind="today"/>
+
+                <FrameLayout
+                    android:id="@+id/ad_frame2"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/todaychartview"
+                    android:layout_weight="0"
+                    android:background="@color/colorPrimary"
+                    android:visibility="gone"
+                    android:clickable="false"
+                    android:focusable="false"
+                    />
+            </com.baisi.spedometer.view.InterceptRelayout>
+
+
+            <com.baisi.spedometer.view.InterceptRelayout
+                android:id="@+id/month_relayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+                <com.baisi.spedometer.view.CustomTopBar
+                    android:id="@+id/header_month"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:left_button_text="@string/month"
+                    app:left_button_textColor="@color/pedo_step_tv"
+                    app:right_button_image="@drawable/pg_ic_permission_arrow"
+                    app:right_button_text="@string/more"
+                    app:title_background="@color/main_activity_bg" />
+
+                <com.baisi.spedometer.view.chatview.SingleViewMonth
+                    android:id="@+id/monthchartview"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_below="@+id/header_month"
+                    app:leftColor="@color/leftColor"
+                    app:leftColorBottom="@color/caloriecolor"
+                    app:selectLeftColor="@color/selectLeftColor"
+                    app:xyColor="@color/xyColor"
+                    app:typeKind="month"/>
+
+                <FrameLayout
+                    android:id="@+id/ad_frame3"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_below="@id/monthchartview"
+                    android:layout_weight="0"
+                    android:background="@color/colorPrimary"
+                    />
+            </com.baisi.spedometer.view.InterceptRelayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

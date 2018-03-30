@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navegar para a página inicial</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navegar para cima</string>
+    <string name="abc_action_menu_overflow_description">Mais opções</string>
+    <string name="abc_action_mode_done">Concluído</string>
+    <string name="abc_activity_chooser_view_see_all">Ver tudo</string>
+    <string name="abc_activitychooserview_choose_application">Selecione um app</string>
+    <string name="abc_capital_off">DESATIVAR</string>
+    <string name="abc_capital_on">ATIVAR</string>
+    <string name="abc_search_hint">Pesquisar...</string>
+    <string name="abc_searchview_description_clear">Limpar consulta</string>
+    <string name="abc_searchview_description_query">Consulta de pesquisa</string>
+    <string name="abc_searchview_description_search">Pesquisar</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Pesquisa por voz</string>
+    <string name="abc_shareactionprovider_share_with">Compartilhar com</string>
+    <string name="abc_shareactionprovider_share_with_application">Compartilhar com %s</string>
+    <string name="abc_toolbar_collapse_description">Recolher</string>
+    <string name="exo_controls_fastforward_description">Avançar</string>
+    <string name="exo_controls_next_description">Próxima faixa</string>
+    <string name="exo_controls_pause_description">Pausar</string>
+    <string name="exo_controls_play_description">Reproduzir</string>
+    <string name="exo_controls_previous_description">Faixa anterior</string>
+    <string name="exo_controls_rewind_description">Retroceder</string>
+    <string name="exo_controls_stop_description">Parar</string>
+    <string name="search_menu_title">Pesquisar</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="EXIT">Saída</string>
+    <string name="download">Baixar</string>
+    <string name="exit">Saída</string>
+    <string name="get_app">Obter desde Google Play</string>
+    <string name="install">Instale</string>
+    <string name="lib_cancel">Cancelar</string>
+    <string name="lib_five_stars_submit">Enviar</string>
+    <string name="lib_new_five_stars_choose">Seu feedback é útil.</string>
+    <string name="lib_new_five_stars_choose_1">Eu não gosto do design</string>
+    <string name="lib_new_five_stars_choose_2">Ele não dispõe das funções que necessito</string>
+    <string name="lib_new_five_stars_choose_3">Não é fácil de usar</string>
+    <string name="lib_new_five_stars_choose_4">Muito complicado</string>
+    <string name="lib_new_five_stars_choose_5">A tradução é pobre</string>
+    <string name="lib_new_five_stars_close">FECHAR</string>
+    <string name="lib_new_five_stars_rate">"Estamos trabalhando duro para melhorar a experiência do usuário.
+
+Nós agradecemos muito caso possa nos dar sua classificação."</string>
+    <string name="lib_new_five_stars_rate_us">"Outros usuários se beneficiarão com sua análise. 
+
+Por favor, nos deixe o seu comentário no Google Play."</string>
+    <string name="lib_rate">Avaliaçāo</string>
+    <string name="lib_rate_dislike">Não gostei</string>
+    <string name="lib_rate_hate_it">Detestei</string>
+    <string name="lib_rate_it_is_ok">Razoável</string>
+    <string name="lib_rate_like_it">Gostei</string>
+    <string name="lib_rate_love_it">Adorei</string>
+    <string name="lib_rate_on_google">Avaliar no google play</string>
+    <string name="lib_the_best_we_can_get">O melhor que conseguimos :)</string>
+    <string name="recommended_for_you">Recomendado para você</string>
+
+
+
+
+    <string name="notification_content">"Os passos de hoje são &#160;"</string>
+</resources>

@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style  name="MySwitchScreen" parent="Theme.AppCompat.Light">
+        <!--开启时的颜色-->
+        <item name="colorControlActivated">#017DCC</item>
+        <!--关闭时的颜色-->
+        <item name="colorSwitchThumbNormal">#B1B1B1</item>
+        <!--关闭时的轨迹颜色取30%的颜色-->
+        <item name="android:colorForeground">#B1B1B1</item>
+    </style>
+
+    <declare-styleable name="MyChartView">
+        <attr name="leftColor" format="color"></attr>
+        <attr name="leftColorBottom" format="color"></attr>
+        <attr name="selectLeftColor" format="color"></attr>
+        <attr name="rightColor" format="color"></attr>
+        <attr name="rightColorBottom" format="color"></attr>
+        <attr name="selectRightColor" format="color"></attr>
+        <attr name="xyColor" format="color"></attr>
+        <attr name="typeKind" format="string"/>
+    </declare-styleable>
+
+</resources>

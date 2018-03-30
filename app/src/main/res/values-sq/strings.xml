@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_enable_button">Aktivizo</string>
+    <string name="common_google_play_services_enable_text">%1$s nuk do të funksionojë nëse nuk aktivizon shërbimet e \"Luaj me Google\".</string>
+    <string name="common_google_play_services_enable_title">Aktivizo shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_install_button">Instalo</string>
+    <string name="common_google_play_services_install_text">%1$s nuk do të funksionojë pa shërbimet e Google Play, të cilat mungojnë në pajisjen tënde.</string>
+    <string name="common_google_play_services_install_title">Merr shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_notification_ticker">Gabim në shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ka probleme me shërbimet e Google Play. Provo sërish.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s nuk do të funksionojë pa shërbimet e Google Play, të cilat nuk mbështeten nga pajisja jote.</string>
+    <string name="common_google_play_services_update_button">Përditëso</string>
+    <string name="common_google_play_services_update_text">%1$s nuk do të funksionojë nëse nuk përditëson shërbimet e \"Luaj me Google\".</string>
+    <string name="common_google_play_services_update_title">Përditëso shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_updating_text">%1$s nuk do të funksionojë pa shërbimet e \"Luaj me Google\", të cilat po përditësohen aktualisht.</string>
+    <string name="common_google_play_services_wear_update_text">Nevojitet një version i ri i shërbimeve të \"Luaj me Google\". Ai do të përditësohet automatikisht së shpejti.</string>
+    <string name="common_open_on_phone">Hape në telefon</string>
+    <string name="common_signin_button_text">Identifikohu</string>
+    <string name="common_signin_button_text_long">Identifikohu me Google</string>
+    <string name="lib_cancel">Anulloje</string>
+    <string name="lib_five_stars_submit">Paraqes</string>
+    <string name="lib_new_five_stars_choose">Your feedback është e dobishme.</string>
+    <string name="lib_new_five_stars_choose_1">Nuk më pëlqen dizajnin</string>
+    <string name="lib_new_five_stars_choose_2">Ajo nuk Funksionet kam nevojë</string>
+    <string name="lib_new_five_stars_choose_3">"Kjo nuk është e lehtë për t'u përdorur"</string>
+    <string name="lib_new_five_stars_choose_4">Është e komplikuar shumë</string>
+    <string name="lib_new_five_stars_choose_5">Përkthimi është i varfër</string>
+    <string name="lib_new_five_stars_close">CLOSE</string>
+    <string name="lib_new_five_stars_rate">"Ne jemi duke punuar shumë për një përvojë më të mirë të përdoruesit.
+
+Ne do të vlerësojmë shumë nëse ju mund të na vlersuar."</string>
+    <string name="lib_new_five_stars_rate_us">"Përdoruesit e tjerë do të përfitojnë nga komentin tuaj. 
+
+Ju lutemi të lënë komentin tuaj në Google Luaj."</string>
+    <string name="lib_rate">Normë</string>
+    <string name="lib_rate_dislike">Nuk e pëlqejnë atë</string>
+    <string name="lib_rate_hate_it">E urrej</string>
+    <string name="lib_rate_it_is_ok">Eshte ne rregull</string>
+    <string name="lib_rate_like_it">Me pelqen</string>
+    <string name="lib_rate_love_it">Duan atë</string>
+    <string name="lib_rate_on_google">Normë në Google play</string>
+    <string name="lib_the_best_we_can_get">Më të mirë ne mund të merrni :)</string>
+
+
+
+
+
+    <string name="notification_content">"Hapat e sotëm janë &#160;"</string>
+</resources>

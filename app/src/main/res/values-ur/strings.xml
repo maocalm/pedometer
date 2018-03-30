@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_enable_button">فعال کریں</string>
+    <string name="common_google_play_services_enable_text">‏جب تک آپ Google Play سروسز فعال نہیں کر لیتے، %1$s کام نہیں کرے گی۔</string>
+    <string name="common_google_play_services_enable_title">‏Google Play سروسز فعال کریں</string>
+    <string name="common_google_play_services_install_button">انسٹال کریں</string>
+    <string name="common_google_play_services_install_text">‏%1$s Google Play سروسز کے بغیر نہیں چلے گی، جو آپ کے آلہ سے غائب ہیں۔</string>
+    <string name="common_google_play_services_install_title">‏Google Play سروسز حاصل کریں</string>
+    <string name="common_google_play_services_notification_ticker">‏Google Play سروسز کی خرابی</string>
+    <string name="common_google_play_services_unknown_issue">‏%1$s کو Google Play سروسز کے ساتھ مسئلہ پیش آ رہا ہے۔ براہ کرم دوبارہ کوشش کریں۔</string>
+    <string name="common_google_play_services_unsupported_text">‏%1$s Google Play سروسز کے بغیر نہیں چلے گی، جن کی آپ کا آلہ معاونت نہیں کرتا۔</string>
+    <string name="common_google_play_services_update_button">اپ ڈیٹ کریں</string>
+    <string name="common_google_play_services_update_text">‏جب تک آپ Google Play سروسز اپ ڈیٹ نہیں کر لیتے ہیں %1$s تب تک نہیں چلے گی۔</string>
+    <string name="common_google_play_services_update_title">‏Google Play سروسز اپ ڈیٹ کریں</string>
+    <string name="common_google_play_services_updating_text">‏%1$s Google Play سروسز کے بغیر نہیں چلے گی، جو فی الحال اپ ڈیٹ ہو رہی ہیں۔</string>
+    <string name="common_google_play_services_wear_update_text">‏Google Play سروسز کے نئے ورژن کی ضرورت ہے۔ یہ تھوڑی دیر میں خود ہی اپنے آپ کو اپ ڈیٹ کر لے گا۔</string>
+    <string name="common_open_on_phone">فون پر کھولیں</string>
+    <string name="common_signin_button_text">سائن ان کریں</string>
+    <string name="common_signin_button_text_long">‏Google کے ساتھ سائن ان کریں</string>
+    <string name="exit">Exit</string>
+    <string name="install">نصب</string>
+    <string name="lib_cancel">منسوخ کریں</string>
+    <string name="lib_five_stars_submit">جمع کریں</string>
+    <string name="lib_new_five_stars_choose">آپ کی فیڈ بیک مفید ہے۔</string>
+    <string name="lib_new_five_stars_choose_1">مجھے ڈیزائن پسند نہیں۔</string>
+    <string name="lib_new_five_stars_choose_2">اس میں میری ضرورت کے فنکشنز نہیں ہیں۔</string>
+    <string name="lib_new_five_stars_choose_3">یہ استعمال میں آسان نہیں۔</string>
+    <string name="lib_new_five_stars_choose_4">یہ بہت پیچیدہ ہے۔</string>
+    <string name="lib_new_five_stars_choose_5">ترجمہ ناقص ہے۔</string>
+    <string name="lib_new_five_stars_close">بند کریں</string>
+    <string name="lib_new_five_stars_rate">"ہم ایک بہتر صارف تجربے کے لیے سخت محنت کر رہے ہیں
+
+ہم آپ کی ریٹنگ کے لیے بہت شکر گزار ہوں گے۔"</string>
+    <string name="lib_new_five_stars_rate_us">"دیگر صارفین آپ کے ریویو سے فائدہ اٹھائیں گے۔
+
+براہِ کرم اپنا ریویو Google Play پر چھوڑیں۔"</string>
+    <string name="lib_rate">ریٹنگ کریں</string>
+    <string name="lib_rate_dislike">یہ ناپسندیدگی</string>
+    <string name="lib_rate_hate_it">اس سے نفرت</string>
+    <string name="lib_rate_it_is_ok">یہ ٹھیک ہے</string>
+    <string name="lib_rate_like_it">پسند ہے</string>
+    <string name="lib_rate_love_it">اس سے محبت</string>
+    <string name="lib_rate_on_google">Google play پر ریٹنگ کریں</string>
+    <string name="lib_the_best_we_can_get">ہماری بہترین ریٹنگ :)</string>
+    <string name="recommended_for_you">آپ کے لیے سفارش کردہ</string>
+
+
+
+
+
+    <string name="notification_content">"آج کے اقدامات ہیں &#160;"</string>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/main_activity_bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.7"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/total_steps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/steps"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:id="@+id/average_steps"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/report_tv_average"
+            android:text="@string/daily_average"/>
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/report_tv_average"
+            tool:text="@string/distance"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/rl_single"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6">
+
+        <com.baisi.spedometer.view.chatview.SingleViewMonth
+            android:id="@+id/monthchartview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:leftColor="@color/leftColor"
+            app:leftColorBottom="@color/leftColorBottom"
+            app:selectLeftColor="@color/selectLeftColor"
+            app:xyColor="@color/xyColor"
+            app:typeKind="month"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:gravity="bottom"
+        android:paddingRight="15dp"
+        android:paddingBottom="2dp"
+        android:layout_marginTop="2dp"
+        >
+
+        <TextView
+            android:id="@+id/step_tv"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:background="@drawable/report_tv_selector"
+            android:text="@string/tab_step" />
+
+        <TextView
+            android:id="@+id/calorle_tv"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:background="@drawable/report_tv_selector"
+            android:text="@string/tab_calorie" />
+
+        <TextView
+            android:id="@+id/time_tv"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:background="@drawable/report_tv_selector"
+            android:text="@string/time" />
+
+        <TextView
+            android:id="@+id/distance_tv"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:background="@drawable/report_tv_selector"
+            android:text="@string/distance" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/ad_frame"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="0"
+        android:background="@color/colorPrimary">
+
+    </FrameLayout>
+</LinearLayout>

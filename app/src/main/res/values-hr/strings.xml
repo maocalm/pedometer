@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">pedometar</string>
+    <string name="abc_action_bar_home_description">Idi na početnu</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Idi gore</string>
+    <string name="abc_action_menu_overflow_description">Dodatne opcije</string>
+    <string name="abc_action_mode_done">Gotovo</string>
+    <string name="abc_activity_chooser_view_see_all">Prikaži sve</string>
+    <string name="abc_activitychooserview_choose_application">Odabir aplikacije</string>
+    <string name="abc_capital_off">ISKLJUČENO</string>
+    <string name="abc_capital_on">UKLJUČENO</string>
+    <string name="abc_search_hint">Pretražite…</string>
+    <string name="abc_searchview_description_clear">Izbriši upit</string>
+    <string name="abc_searchview_description_query">Upit za pretraživanje</string>
+    <string name="abc_searchview_description_search">Pretraživanje</string>
+    <string name="abc_searchview_description_submit">Pošalji upit</string>
+    <string name="abc_searchview_description_voice">Glasovno pretraživanje</string>
+    <string name="abc_shareactionprovider_share_with">Dijeljenje sa</string>
+    <string name="abc_shareactionprovider_share_with_application">Dijeljenje sa: %s</string>
+    <string name="abc_toolbar_collapse_description">Sažmi</string>
+    <string name="common_google_play_services_enable_button">Omogući</string>
+    <string name="common_google_play_services_enable_text">%1$s neće funkcionirati ako ne omogućite usluge Google Playa.</string>
+    <string name="common_google_play_services_enable_title">Omogućivanje usluga Google Playa</string>
+    <string name="common_google_play_services_install_button">Instaliraj</string>
+    <string name="common_google_play_services_install_text">%1$s neće funkcionirati bez usluga Google Playa koje nisu instalirane na vašem uređaju.</string>
+    <string name="common_google_play_services_install_title">Preuzimanje usluga Google Playa</string>
+    <string name="common_google_play_services_notification_ticker">Pogreška Usluga za Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ima poteškoća s uslugama Google Playa. Pokušajte ponovo.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s neće funkcionirati bez usluga Google Playa koje vaš uređaj ne podržava.</string>
+    <string name="common_google_play_services_update_button">Ažuriraj</string>
+    <string name="common_google_play_services_update_text">%1$s neće funkcionirati ako ne ažurirate Google Play usluge.</string>
+    <string name="common_google_play_services_update_title">Ažuriranje usluga Google Playa</string>
+    <string name="common_google_play_services_updating_text">%1$s neće se pokrenuti bez usluga Google Playa koje se trenutačno ažuriraju.</string>
+    <string name="common_google_play_services_wear_update_text">Potrebna je nova verzija usluga Google Playa. Uskoro će se ažurirati.</string>
+    <string name="common_open_on_phone">Otvori na telefonu</string>
+    <string name="common_signin_button_text">Prijava</string>
+    <string name="common_signin_button_text_long">Prijava putem Googlea</string>
+    <string name="exo_controls_fastforward_description">Brzo unaprijed</string>
+    <string name="exo_controls_next_description">Sljedeća pjesma</string>
+    <string name="exo_controls_pause_description">Pauziraj</string>
+    <string name="exo_controls_play_description">Reproduciraj</string>
+    <string name="exo_controls_previous_description">Prethodna pjesma</string>
+    <string name="exo_controls_rewind_description">Unatrag</string>
+    <string name="exo_controls_stop_description">Zaustavi</string>
+    <string name="search_menu_title">Pretraživanje</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="EXIT">Izađite</string>
+    <string name="download">Preuzimanje</string>
+    <string name="exit">Izađite</string>
+    <string name="get_app">Dobiti iz Google Play</string>
+    <string name="install">Instalirajte</string>
+    <string name="lib_cancel">Prekid</string>
+    <string name="lib_five_stars_submit">Pošalji</string>
+    <string name="lib_new_five_stars_choose">Vaše su povratne informacije korisne.</string>
+    <string name="lib_new_five_stars_choose_1">Ne sviđa mi se dizajn</string>
+    <string name="lib_new_five_stars_choose_2">Nema funkcija koje mi trebaju</string>
+    <string name="lib_new_five_stars_choose_3">Nije jednostavna za upotrebu</string>
+    <string name="lib_new_five_stars_choose_4">Prekomplicirana je</string>
+    <string name="lib_new_five_stars_choose_5">Prijevod je loš</string>
+    <string name="lib_new_five_stars_close">ZATVORI</string>
+    <string name="lib_new_five_stars_rate">"Uistinu se trudimo poboljšati korisničko iskustvo.
+
+Puno bi nam značilo kada biste nas ocijenili."</string>
+    <string name="lib_new_five_stars_rate_us">"Vaša će recenzija pomoći drugim korisnicima. 
+
+Molimo, napišite recenziju u trgovini Google Play."</string>
+    <string name="lib_rate">Ocijeni</string>
+    <string name="lib_rate_dislike">Nije mi se svidjelo</string>
+    <string name="lib_rate_hate_it">Bilo je grozno</string>
+    <string name="lib_rate_it_is_ok">U redu je</string>
+    <string name="lib_rate_like_it">Svidjelo mi se</string>
+    <string name="lib_rate_love_it">Bilo je super</string>
+    <string name="lib_rate_on_google">Ocijeni na Google Play</string>
+    <string name="lib_the_best_we_can_get">Najbolja ocjena za nas :)</string>
+    <string name="recommended_for_you">Preporučeno je za vas</string>
+
+
+
+
+    <string name="notification_content">"Današnji koraci su &#160;"</string>
+</resources>

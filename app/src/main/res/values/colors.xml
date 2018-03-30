@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#181823</color>
+    <color name="colorPrimaryDark">#181823</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="start_guide_color">#471D43</color>
+    <color name="end_guide_color">#000000</color>
+    <color name="guide_text_title_color">#FC2F8C</color>
+
+    <color name="start_gradient_color">#914AE5</color>
+    <color name="end_gradient_color">#DC1F63</color>
+    <color name="back_gradient_color">#362256</color>
+
+
+    <color name="text_color">#858590</color>
+    <color name="set_text_color">#B3B3BB</color>
+
+    <color name="pedo_goal_tv">#CBFFFFFF</color>
+    <color name="pedo_step_tv">#ffffff</color>
+    <color name="pedo_pause_tv">#C73E7A</color>
+
+    <color name="selecter_shape_end_color">#9A47DF</color>
+    <color name="selecter_shape_start_color">#ED2C7F</color>
+    <color name="normal_shape_widrh">#1E73C0</color>
+    <color name="normal_shape_bg">#401E73C0</color>
+    <color name="setting_text_show_color">#0B78E3</color>
+    <color name="guide_button_bg">#0E62BC</color>
+    <color name="guide_pop_bg">#00ffffff</color>
+    <color name="main_activity_bg">#0F0F1B</color>
+
+    <color name="main_tablayout">#191925</color>
+
+    <!--report fragment-->
+    <color name="report_back">#0F0F1B</color>
+    <color name="report_tv_bg">#082E55</color>
+    <color name="report_tv_stroke">#0B79DD</color>
+    <color name="report_tv_average">#b3ffffff</color>
+
+
+    <!--chart view -->
+    <color name="leftColor">#a1de89</color>
+    <color name="rightColor">#f7e494</color>
+    <color name="rightBottomColor">#f7d194</color>
+    <color name="leftColorBottom">#208C59</color>
+    <color name="selectLeftColor">#1daf00</color>
+    <color name="selectRightColor">#f8935c</color>
+    <color name="xyColor">#999</color>
+
+    <color name="stepcolor">#FBCC1A</color>
+    <color name="caloriecolor">#F02A82</color>
+    <color name="timecolor">#55B1BC</color>
+    <color name="distancecolor">#583084</color>
+
+
+
+    <!--historyactivity -->
+    <color name="item1_background">#250C2C</color>
+    <color name="item1_step">#E92C81</color>
+    <color name="item2_background">#332237</color>
+    <color name="bottomLine">#613F6A</color>
+
+
+    <!--pedo-->
+    <color name="zhezhao">#69080808</color>
+
+
+    <!--sportformalactivity -->
+    <color name="sportActi_background">#191B28</color>
+    <color name="sportActi_Miles">#E42E85</color>
+</resources>

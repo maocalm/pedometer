@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/item2_background"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dec"
+            android:textColor="@color/pedo_goal_tv"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/step_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/date_tv"
+            android:layout_marginTop="15dp"
+            android:text="dec"
+            android:textColor="@color/pedo_step_tv"
+            android:textSize="14sp" />
+
+
+
+        <RelativeLayout
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/date_tv"
+            android:layout_marginLeft="32dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/calorle_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9.6"
+                android:textColor="@color/pedo_step_tv"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/calorle_unit_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@id/calorle_tv"
+                android:text="kcal"
+                android:textColor="@color/pedo_goal_tv"
+                android:textSize="14sp" />
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+                <TextView
+                    android:id="@+id/km_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="9.6"
+                    android:textColor="@color/pedo_step_tv"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/km_unit_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/km_tv"
+                    android:text="kcal"
+                    android:layout_marginLeft="4dp"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/pedo_goal_tv"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                >
+
+                <TextView
+                    android:id="@+id/stepsecond_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/pedo_step_tv"
+                    android:text="9.6"
+                    />
+                <TextView
+                    android:id="@+id/stepsecond_unit_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="kcal"
+                    android:layout_toRightOf="@id/stepsecond_tv"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="@color/pedo_goal_tv"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:textColor="@color/bottomLine"/>
+</LinearLayout>
