@@ -1,5 +1,7 @@
 # pedometer
 my pedometer
+
+一个基于硬件加速和加速度传感器计步的计步器 ,辅助融合了google fit 
 MIT License
 Copyright (c) 2013 - present Karol Wrótniak, Droids on Roids
 
